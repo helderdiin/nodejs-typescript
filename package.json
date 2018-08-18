@@ -16,12 +16,14 @@
     "url": "git+https://github.com/helderdiin/nodejs-typescript.git"
   },
   "author": "Helder Traci <helderdiin.work@gmail.com>",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.6",
+    "body-parser": "^1.18.3"
+  },
   "devDependencies": {
     "@types/express": "^4.16.0",
     "@types/mongoose": "^5.2.3",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "mongoose": "^5.2.6",
     "nodemon": "^1.18.3",
     "tslint": "^5.11.0",
     "tslint-config-airbnb": "^5.10.0",
